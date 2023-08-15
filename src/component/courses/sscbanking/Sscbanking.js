@@ -112,16 +112,8 @@ const Sscbanking = () => {
             {/* <Container> */}
                 <Nav>
                     <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(0)}>Career</button>
-                    <Dropdown className='tab-btn'>
-                    <Dropdown.Toggle className='dropdown-toggle btn-secondary' id="dropdown-basic">
-                         Exam Syllabus
-                    </Dropdown.Toggle>
-
-                    <Dropdown.Menu>
-                        <Dropdown.Item onClick={() => tabHandler_sub(0)}>PO Syllabus</Dropdown.Item>
-                        <Dropdown.Item onClick={() => tabHandler_sub(1)}>CLERK Syllabus</Dropdown.Item>
-                    </Dropdown.Menu>
-                    </Dropdown>
+                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler_sub(0)}>PO Syllabus</button>
+                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler_sub(1)}>CLERK Syllabus</button>
                     <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(2)}>Important Banking Terms</button>
                     <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(3)}>Fees Structure</button>
                 </Nav>

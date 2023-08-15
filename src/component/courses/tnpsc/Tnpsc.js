@@ -65,9 +65,9 @@ const Tnpsc = () => {
             <Navbar className='tabs-cont'>
             {/* <Container> */}
                 <Nav>
-                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(0)}>Career</button>
-                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(1)}>Examination Syllabus</button>
-                    <button className='tab-btn btn btn-secondary' onClick={() => tabHandler(2)}>Important Subjects</button>
+                    <button className='tab-btn btn ' onClick={() => tabHandler(0)}>Career</button>
+                    <button className='tab-btn btn ' onClick={() => tabHandler(1)}>Examination Syllabus</button>
+                    <button className='tab-btn btn ' onClick={() => tabHandler(2)}>Important Subjects</button>
                 </Nav>
             {/* </Container> */}
             </Navbar>
@@ -191,7 +191,7 @@ const Brochure = () => {
                     <tbody>
                         <tr>
                             <td>வகுப்பிற்கான கட்டணம் + தொடர் தேர்வுகள் (Test Series)<br/> (One time FEES till your placement)</td>
-                            <td>ரூ.15,000</td>
+                            <td>ரூ.20,000</td>
                         </tr>
                         <tr>
                             <td>கொள்குறி வகை தொடர் தேர்வுகள் (Objective Type Test Series)</td>
