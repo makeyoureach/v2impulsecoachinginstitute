@@ -1,0 +1,36 @@
+.frontbackimg{
+    height: 100vh;
+}
+
+.overlayimage{
+padding-top: 40vh;
+color: white;   
+line-height: 5em;
+word-spacing: .1em;
+letter-spacing: .1em;
+/* text-align: center; */
+background-color: rgba(8, 8, 8, 0.762);
+font-weight: 400;
+}
+
+#overlayimagetext{
+    font-size: 50px;
+}
+
+
+@media (max-width: 750px) { 
+    
+#overlayimagetext{
+    font-size: 35px;
+}
+.overlayimage{
+    padding-top: 30vh;
+    color: white;   
+    line-height: 2.5em;
+    word-spacing: 0;
+    letter-spacing: 0;
+    /* text-align: center; */
+    background-color: rgba(8, 8, 8, 0.571);
+    font-weight: 500;
+    }
+}

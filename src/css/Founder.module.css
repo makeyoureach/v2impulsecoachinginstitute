@@ -1,0 +1,127 @@
+
+.container{
+    margin: 0 auto;
+    max-width: 1300px;
+    padding: 30px 20px;
+    padding-top: 60px;
+}
+
+.container .center{
+    text-align: center;
+}
+
+.center h1{
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.our_team_text{
+    margin: 0 auto;
+    max-width: 700px;
+    line-height: 1.8;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+    /* grid-gap: 20vh; */
+    margin-top: 50px;
+    text-align: left;
+}
+
+.card{
+    background-color: aliceblue;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.carouselfon{
+    background-color: #bc4258;
+    /* height: 100vh; */
+    padding: 10vh 0vh;
+}
+.card img{
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.card .card_name{
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.card .card_text{
+    font-size: 16px;
+    color: #888;
+    margin-bottom: 40px;
+}
+
+.card .btn{
+    padding: 15px 60px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.3);
+    border-radius: 50px;
+    text-decoration: none;
+    color: #000;
+    transition: 0.3s ease;
+}
+
+.card .btn:hover{
+    box-shadow: -2px -2px rgba(0,0,0,0.3);
+    transform: translateY(-5px);
+}
+
+@media screen and (max-width: 700px) {
+    .cards{
+        grid-template-columns: 1fr;
+    }
+    
+}
+
+@media (max-width: 750px) { 
+    .container{
+        padding: 3vh;
+    }
+    
+
+    .cards{
+        grid-gap: 0vh;
+        margin-top: 0vh;
+    }
+
+    .card{
+        background-color: aliceblue;
+        /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+        border-radius: 10px;
+        padding: 30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+.carouselfon{
+    background-color: #bc4258;
+    /* height: 100vh; */
+    padding: 5vh 0vh;
+}
+
+.card{
+    background-color: aliceblue;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+    border-radius: 5px;
+    padding: 30px 20px;
+    width: 90%;
+}
+}
