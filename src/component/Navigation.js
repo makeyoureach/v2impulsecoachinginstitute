@@ -114,9 +114,10 @@ function Navigation(props) {
                 display: { xs: 'block', md: 'none' },
               }}
             >
-              {pages.map((page) => (
+              {pages.map((page, idx) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center">               <NavLink to={"/"+anchor[idx]} style={{textDecoration: 'none', color:'inherit' }}  >{page}</NavLink>
+</Typography>
                 </MenuItem>
               ))}
             </Menu>
