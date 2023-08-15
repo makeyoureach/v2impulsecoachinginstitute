@@ -318,6 +318,7 @@
 
   #gallery2containerid{
     margin-top: 5vh;
+    z-index: -1;
   }
   .layoutcont{
     margin-top: 10vh;
@@ -417,5 +418,8 @@
 }
 .googlemapcont{
   padding: 5vh 0vh;
+}
+#explorecourse{
+  padding: 0vh 0vh;
 }
 }

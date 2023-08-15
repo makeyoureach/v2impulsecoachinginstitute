@@ -13,7 +13,7 @@ function Whyimpulse() {
  <Container>
         <Row id={styles.whyimpulserowcon}>
             <Col style={{display:'flex', justifyContent:'center', alignItems:'center', flexDirection:'column'}}> 
-          <Slide direction='down'>
+          <Slide direction='left'>
 
             <div className={styles.title_header}>
             <h1>Why Impulse is unique{" "}?</h1>

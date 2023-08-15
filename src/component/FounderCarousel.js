@@ -8,7 +8,7 @@ import { Slide, Zoom, Fade,Hinge } from 'react-awesome-reveal';
 
 function FounderCarousel() {
   return (
-    <Carousel data-bs-theme="dark" className={styles.carouselfon} fade style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
+    <Carousel data-bs-theme="dark" className={styles.carouselfon} fade style={{display:'flex',justifyContent:'center', alignItems:'center', zIndex:'-1'}}>
       <Carousel.Item interval={1000} style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
       <div className={styles.card}>
                 <img src="/home/VigneshAnna.jpg" alt="John Doe" />

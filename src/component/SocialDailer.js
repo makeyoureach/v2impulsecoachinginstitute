@@ -54,7 +54,7 @@ export default function SocialDailer() {
     <Box sx={{ height: 320, transform: 'translateZ(0px)', flexGrow: 1, position: 'fixed', bottom: 0, right: 0 }}>
       <SpeedDial
         ariaLabel="SpeedDial basic example"
-        style={{ position: 'absolute', bottom: 18, right: 18 }}
+        style={{ position: 'absolute', bottom: 18, right: 18, zIndex:'10' }}
         icon={<SpeedDialIcon/>}
         FabProps={{
             sx: {
