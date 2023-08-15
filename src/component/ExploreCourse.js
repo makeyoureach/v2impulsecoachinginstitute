@@ -30,9 +30,8 @@ export default function ExploreCourse() {
             <Row className='explorecards' style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <Col style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
                 <Fade>
-                <NavLink to="/tnpsc" style={{ color:'#3c959c', textDecoration: 'none' }} >
                     <Card sx={{ width: 345 }} className='explorecardmobile'>
-                        <CardActionArea>
+                    <NavLink to="/tnpsc" style={{ color:'#3c959c', textDecoration: 'none' }} > <CardActionArea>
                         <Bounce><CardMedia
                                 component="img"
                                 height="140"
@@ -48,7 +47,7 @@ export default function ExploreCourse() {
                                 Welcome to the TNPSC section of IMPULSE, your pathway to success in Tamil Nadu Public Service Commission (TNPSC) exams. We specialize in providing comprehensive coaching and guidance tailored specifically for TNPSC aspirants. Our expert faculty members, with their in-depth knowledge and proven teaching methodologies, are committed to equipping you with the skills and knowledge required to excel in TNPSC exams. With our well-researched study materials, regular assessments, and personalized mentorship, we ensure you are well-prepared for the competitive TNPSC exams. Join us at IMPULSE  and let us guide you towards your goals in TNPSC. Contact us today to kickstart your TNPSC exam preparation journey.
                                 </Typography>
                             </CardContent>
-                        </CardActionArea>
+                        </CardActionArea></NavLink>
                         <CardActions style={{padding:'2vh'}}>
                             <Button  style={{ color:'white', background:'#3c959c' }}>
                             <a href={tnpsc_brochure} style={{ color:'white', textDecoration: 'none' }}><DownloadIcon/> Brochure</a>
@@ -56,13 +55,13 @@ export default function ExploreCourse() {
                             <NavLink to="/tnpsc" style={{ color:'#3c959c', textDecoration: 'none' }} >Learn More</NavLink>
                             </Button>
                         </CardActions>
-                    </Card></NavLink>
+                    </Card>
                     </Fade>
                 </Col>
                 <Col style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                <Fade><NavLink to="/upsc" style={{ color:'#3c8cb6', textDecoration: 'none' }} >
+                <Fade>
                     <Card sx={{ width: 345 }} className='explorecardmobile'>
-                        <CardActionArea>
+                    <NavLink to="/upsc" style={{ color:'#3c8cb6', textDecoration: 'none' }} ><CardActionArea>
                         <Bounce><CardMedia
                                 component="img"
                                 height="140"
@@ -78,7 +77,7 @@ export default function ExploreCourse() {
                                 Welcome to the UPSC section of IMPULSE, your gateway to success in civil services examinations. We specialize in providing top-notch coaching and guidance for UPSC aspirants who dream of serving the nation. Our experienced faculty members, equipped with in-depth knowledge and proven teaching methodologies, are dedicated to helping you excel in every stage of the UPSC journey. With comprehensive study materials, regular assessments, and personalized mentorship, we ensure you have the tools to navigate the vast syllabus and develop the necessary skills to crack the UPSC exams. Join us at IMPULSE and let us pave the way for your success in UPSC. Contact us now to start your transformative UPSC preparation.
                                 </Typography>
                             </CardContent>
-                        </CardActionArea>
+                        </CardActionArea></NavLink>
                         <CardActions style={{padding:'2vh'}}>
                         <Button  style={{ color:'white', background:'#3c8cb6' }}>
                             <a href={upsc_brochure} style={{ color:'white', textDecoration: 'none' }}><DownloadIcon/> Brochure</a>
@@ -86,13 +85,13 @@ export default function ExploreCourse() {
                             <NavLink to="/upsc" style={{ color:'#3c8cb6', textDecoration: 'none' }} >Learn More</NavLink>
                             </Button>
                         </CardActions>
-                    </Card></NavLink>
+                    </Card>
                     </Fade>
                 </Col>
                 <Col style={{display:'flex', justifyContent:'center', alignItems:'center'}}>
-                <Fade><NavLink to="/sscandbanking" style={{ color:'#bc455b', textDecoration: 'none' }} >
+                <Fade>
                     <Card sx={{ width: 345 }} className='explorecardmobile'>
-                        <CardActionArea>
+                    <NavLink to="/sscandbanking" style={{ color:'#bc455b', textDecoration: 'none' }} ><CardActionArea>
                             <Bounce><CardMedia
                                 component="img"
                                 height="140"
@@ -108,7 +107,7 @@ export default function ExploreCourse() {
                                 Welcome to the Banking section of IMPULSE, your key to unlocking a successful career in the banking industry. We specialize in providing comprehensive coaching and guidance for banking exams conducted by leading institutions. Our experienced faculty members, equipped with extensive knowledge and expertise, are dedicated to preparing you for the challenges of banking exams. 
                                 </Typography>
                             </CardContent>
-                        </CardActionArea>
+                        </CardActionArea></NavLink>
                         <CardActions style={{padding:'2vh'}}>
                         <Button  style={{ color:'white', background:'#bc455b' }}>
                             <a href={ssc_brochure} style={{ color:'white', textDecoration: 'none' }}><DownloadIcon/> Brochure</a>
@@ -116,7 +115,7 @@ export default function ExploreCourse() {
                             <NavLink to="/sscandbanking" style={{ color:'#bc455b', textDecoration: 'none' }} >Learn More</NavLink>
                             </Button>
                         </CardActions>
-                    </Card></NavLink>
+                    </Card>
                     </Fade>
                 </Col>
             </Row>
