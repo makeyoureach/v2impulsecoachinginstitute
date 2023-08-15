@@ -70,6 +70,7 @@
 }
 .cardtext_heading{
   font-size: 45px;
+  line-height: 3rem;
 }
 .cardtext_heading2{
   font-size: 30px;
@@ -356,6 +357,8 @@
   }
   .cardtext_heading{
     font-size: 45px;
+  line-height: 4.5rem;
+
   }
   
 .exploreheading{
