@@ -43,7 +43,7 @@ export default function ExploreCourse() {
                                 <Typography gutterBottom variant="h5" component="div">
                                     TNPSC
                                 </Typography> 
-                                <Typography variant="body2" color="text.secondary" className='explorecardcontent'>
+                                <Typography variant="body2" style={{fontWeight:'300'}} color="text.secondary" className='explorecardcontent'>
                                 Welcome to the TNPSC section of IMPULSE, your pathway to success in Tamil Nadu Public Service Commission (TNPSC) exams. We specialize in providing comprehensive coaching and guidance tailored specifically for TNPSC aspirants. Our expert faculty members, with their in-depth knowledge and proven teaching methodologies, are committed to equipping you with the skills and knowledge required to excel in TNPSC exams. With our well-researched study materials, regular assessments, and personalized mentorship, we ensure you are well-prepared for the competitive TNPSC exams. Join us at IMPULSE  and let us guide you towards your goals in TNPSC. Contact us today to kickstart your TNPSC exam preparation journey.
                                 </Typography>
                             </CardContent>
@@ -73,7 +73,7 @@ export default function ExploreCourse() {
                                 <Typography gutterBottom variant="h5" component="div">
                                     UPSC
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary"  className='explorecardcontent'>
+                                <Typography variant="body2" color="text.secondary" style={{fontWeight:'300'}}   className='explorecardcontent'>
                                 Welcome to the UPSC section of IMPULSE, your gateway to success in civil services examinations. We specialize in providing top-notch coaching and guidance for UPSC aspirants who dream of serving the nation. Our experienced faculty members, equipped with in-depth knowledge and proven teaching methodologies, are dedicated to helping you excel in every stage of the UPSC journey. With comprehensive study materials, regular assessments, and personalized mentorship, we ensure you have the tools to navigate the vast syllabus and develop the necessary skills to crack the UPSC exams. Join us at IMPULSE and let us pave the way for your success in UPSC. Contact us now to start your transformative UPSC preparation.
                                 </Typography>
                             </CardContent>
@@ -103,7 +103,7 @@ export default function ExploreCourse() {
                                 <Typography gutterBottom variant="h5" component="div">
                                     SSC and Banking
                                 </Typography>
-                                <Typography variant="body2" color="text.secondary" className='explorecardcontent'>
+                                <Typography variant="body2" color="text.secondary" style={{fontWeight:'300'}}  className='explorecardcontent'>
                                 Welcome to the Banking section of IMPULSE, your key to unlocking a successful career in the banking industry. We specialize in providing comprehensive coaching and guidance for banking exams conducted by leading institutions. Our experienced faculty members, equipped with extensive knowledge and expertise, are dedicated to preparing you for the challenges of banking exams. 
                                 </Typography>
                             </CardContent>
