@@ -13,12 +13,14 @@ import GoogleMap from './GoogleMap'
 import Gallery2 from './Gallery2'
 import FounderCarousel from './FounderCarousel'
 import Navigation from './Navigation'
+import Alert from './alert/Alert'
 
 function Home() {
   window.scrollTo(0, 0);
 
   return (
     <div className='homecontainer'>
+    <Alert/>
     <Navigation scroll={true}/>
     <DarkCarousel />
     <Aboutus/>
