@@ -23,7 +23,7 @@ function Alert() {
                             </Modal.Header>
                 <Modal.Body>
                     <Card className="bg-dark text-white">
-                        <Card.Img src="/v2/alert/nv2.jpg" alt="Card image" />
+                        <Card.Img src="/v2/alert/nv3.jpg" alt="Card image" />
                         <Card.ImgOverlay>
                             
                             {/* <Card.Title>Card title</Card.Title>
