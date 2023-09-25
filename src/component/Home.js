@@ -20,7 +20,7 @@ function Home() {
 
   return (
     <div className='homecontainer'>
-    <Alert/>
+    {/* <Alert/> */}
     <Navigation scroll={true}/>
     <DarkCarousel />
     <Aboutus/>
