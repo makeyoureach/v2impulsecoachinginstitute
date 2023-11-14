@@ -12,8 +12,8 @@ function FounderCarousel() {
       <Carousel.Item interval={2000} style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
       <div className={styles.card}>
                 <img src="/home/VigneshAnna.jpg" alt="John Doe" />
-                <h3 className={styles.card_name}>Mr. S.Vignesh</h3>
-                <p className={styles.card_text}>Managing Director</p>
+                <h3 className={styles.card_name}>Mr. S Vignesh</h3>
+                <p className={styles.card_text}>Managing Director, Co-founder</p>
                 <Fade>
                 <h5 style={{fontWeight:'300'}} className={styles.card_info}>We at IMPULSE Coaching Institute strive for the overall
                         development of students and travel with them till they achieve
@@ -26,9 +26,9 @@ function FounderCarousel() {
       </Carousel.Item>
       <Carousel.Item interval={2000}  style={{display:'flex',justifyContent:'center', alignItems:'center'}}>
       <div className={styles.card}>
-                <img src="/home/founder.jpg" alt="John Doe" />
-                <h3 className={styles.card_name}>Mr. K. Palanivelu</h3>
-                <p className={styles.card_text}>The Founder</p>
+                <img src="/home/founder2.jpg" alt="John Doe" />
+                <h3 className={styles.card_name}>P Gayathridevi</h3>
+                <p className={styles.card_text}>Director, Co-founder</p>
                 <Fade>
 
                 <h5 style={{fontWeight:'300'}}className={styles.card_info}>The importance we have attached to education for generations has
