@@ -27,7 +27,7 @@ function Founder() {
                         succeed.</h5>
             </div>
             <div className={styles.card}>
-                <img src="/home/founder.jpg" alt="John Doe" />
+                <img src="/home/founder2.jpg" alt="John Doe" />
                 <h3 className={styles.card_name}>P Gayathri</h3>
                 <p className={styles.card_text}>Director, Co-founder</p>
                 <h5 style={{fontWeight:'300'}}className={styles.card_info}>The importance we have attached to education for generations has
