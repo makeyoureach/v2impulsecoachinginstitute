@@ -31,7 +31,7 @@ function FounderCarousel() {
                 <p className={styles.card_text}>Director, Co-founder</p>
                 <Fade>
 
-                <h5 style={{fontWeight:'300'}}className={styles.card_info}>At Impulse Coaching Institute, we aim to empower aspiring students to achieve their dreams of joining the esteemed Civil Service. <br/>We prioritize the holistic development of our students, providing them with the knowledge, skills, and mindset needed for success in competitive exams and beyond. Our commitment goes beyond coaching – we are dedicated to guiding students towards their ambitions, instilling a sense of purpose, and nurturing future leaders who will make meaningful contributions to society through their roles in civil services.</h5>
+                <h5 style={{fontWeight:'300'}}className={styles.card_info}>At Impulse Coaching Institute, we aim to empower aspiring students to achieve their dreams of joining the esteemed Civil Service. We prioritize the holistic development of our students, providing them with the knowledge, skills, and mindset needed for success in competitive exams and beyond. Our commitment goes beyond coaching – we are dedicated to guiding students towards their ambitions, instilling a sense of purpose, and nurturing future leaders who will make meaningful contributions to society through their roles in civil services.</h5>
                               </Fade>
             </div>
       </Carousel.Item>
