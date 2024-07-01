@@ -16,25 +16,60 @@ const images = [
   {
     label: '1',
     imgPath:
-      '/slide/p1.jpeg',
+      '/slide/n1.jpg',
   },
   {
     label: '2',
     imgPath:
-      '/slide/p2.jpeg',
+      '/slide/n2.jpg',
   },
   {
     label: '3',
     imgPath:
-      '/slide/s1.jpg',
+      '/slide/n3.jpg',
   },
   {
     label: '4',
     imgPath:
-      '/slide/s2.jpg',
+      '/slide/n4.jpg',
   },
   {
     label: '5',
+    imgPath:
+      '/slide/n5.jpg',
+  },
+  {
+    label: '6',
+    imgPath:
+      '/slide/n6.jpg',
+  },
+  {
+    label: '7',
+    imgPath:
+      '/slide/n7.jpg',
+  },
+  {
+    label: '8',
+    imgPath:
+      '/slide/p1.jpeg',
+  },
+  {
+    label: '9',
+    imgPath:
+      '/slide/p2.jpeg',
+  },
+  {
+    label: '10',
+    imgPath:
+      '/slide/s1.jpg',
+  },
+  {
+    label: '11',
+    imgPath:
+      '/slide/s2.jpg',
+  },
+  {
+    label: '12',
     imgPath:
       '/slide/s3.jpg',
   },

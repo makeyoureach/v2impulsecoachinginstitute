@@ -12,7 +12,7 @@ import ReadMoreIcon from '@mui/icons-material/ReadMore';
 import { NavLink } from 'react-router-dom';
 import upsc_brochure from './brochure/upsc_brochure.pdf';
 import ssc_brochure from './brochure/ssc_brochure.pdf';
-import tnpsc_brochure from './brochure/tnpsc_brochure.pdf';
+import tnpsc_brochure from './brochure/tnpsc_brochure1.pdf';
 
 export default function ExploreCourse() {
     return (

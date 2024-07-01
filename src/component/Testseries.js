@@ -4,8 +4,8 @@ import styles from '../css/Courses.module.css';
 import {FiPhoneCall} from 'react-icons/fi';
 import CheckCircleIcon from '@mui/icons-material/CheckCircle';
 import { Slide, Zoom, Fade,Hinge } from 'react-awesome-reveal';
-import tem from './brochure/testseries_em.pdf';
-import ttm from './brochure/testseries_tm.pdf';
+import tem from './brochure/testseries_em1.pdf';
+import ttm from './brochure/testseries_tm1.pdf';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 function Testseries() {

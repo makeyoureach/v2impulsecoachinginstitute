@@ -38,7 +38,7 @@ function Whyimpulse() {
                   <div><CheckCircleIcon className='titick'/></div><h5 className='wypoint'> Compatibility between Online and Offline course</h5>
                 </div>
                 <div style={{display:'flex'}} className='divwhyimp'>
-                  <div><CheckCircleIcon className='titick'/></div><h5 className='wypoint'> One-time fees till you make to the final list</h5>
+                  <div><CheckCircleIcon className='titick'/></div><h5 className='wypoint'> One-time fees till you make it to the final list</h5>
                 </div>
             </div>
           </Slide>

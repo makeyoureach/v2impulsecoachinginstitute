@@ -181,7 +181,7 @@ const Brochure = () => {
                 </Col>
             </Row>
 
-            <section className="brochure-fee">
+            {/* <section className="brochure-fee">
                 <Table striped bordered hover>
                     <thead>
                         <tr>
@@ -203,7 +203,7 @@ const Brochure = () => {
                         </tr>
                     </tbody>
                 </Table>
-            </section>
+            </section> */}
         </section>
     )
 }

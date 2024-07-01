@@ -28,7 +28,8 @@ function Aboutus() {
           </Col>
         <Col className={styles.aboutcol1}> 
         {/* <Zoom> */}
-          <iframe className={styles.ytsize} src="https://www.youtube.com/embed/o67RBy3ip8k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+          {/* <iframe className={styles.ytsize} src="https://www.youtube.com/embed/o67RBy3ip8k?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */}
+          <iframe className={styles.ytsize} src="https://www.youtube.com/embed/bqwteydJivs?si=eGO43vx-MyG-Eei9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
           {/* </Zoom> */}
         </Col>
       </Row>
