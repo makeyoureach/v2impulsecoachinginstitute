@@ -17,7 +17,7 @@ function DarkCarousel() {
             
             <div style={{display:'flex', justifyContent:'center', alignItems:'center'}}  className='div_enrollnow'>
             <Slide direction='up'><Button className='enrollnow_front' style={{background:'#aa2c44', color:'white'}}>
-            <a style={{textDecoration:'none', color:'inherit'}} href='tel:7397556722'>Enroll Now</a>
+            <a style={{textDecoration:'none', color:'inherit'}} href='tel:9003557734'>Enroll Now</a>
               </Button></Slide>
 
               </div>
@@ -36,7 +36,7 @@ function DarkCarousel() {
               
             <div style={{display:'flex', justifyContent:'center', alignItems:'center'}} className='div_enrollnow'>
             <Slide direction='up'><Button className='enrollnow_front' style={{background:'#aa2c44', color:'white'}}>
-            <a style={{textDecoration:'none', color:'inherit'}} href='tel:7397556722'>Enroll Now</a>
+            <a style={{textDecoration:'none', color:'inherit'}} href='tel:9003557734'>Enroll Now</a>
               </Button></Slide>
               </div>
 

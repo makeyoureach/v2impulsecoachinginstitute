@@ -31,7 +31,7 @@ function Trustcard() {
                                 <div style={{ display: 'flex', justifyContent: 'start', alignContent: 'center' }}>
                             <Button className={`${styles.coursebroucher} ${styles.cardbottom}`} style={{ background: '#aa2c44', color: 'white', border: '3px solid #aa2c44', borderRadius:'0px' }}>
                             <a href={trust_brochure} style={{ color:'white', textDecoration: 'none' }}>BROCHURE</a></Button>
-                            <a href="tel:7397556722" className={`${styles.courseenquiry} ${styles.cardbottom}`} style={{paddingBottom:'8px',color: '#aa2c44',  background:'white', borderRadius:'0px', border: '3px solid #aa2c44'}}><VolunteerActivismIcon/> Donate</a>
+                            <a href="tel:9003557734" className={`${styles.courseenquiry} ${styles.cardbottom}`} style={{paddingBottom:'8px',color: '#aa2c44',  background:'white', borderRadius:'0px', border: '3px solid #aa2c44'}}><VolunteerActivismIcon/> Donate</a>
                         </div>
                         </div>
                     

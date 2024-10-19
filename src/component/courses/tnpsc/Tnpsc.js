@@ -95,7 +95,7 @@ const Tnpsc = () => {
 
             </div>
             <section style={{display:'flex', justifyContent:'center', alignItems:'center', margin:'5vh'}}>
-                <Button style={{background:'#aa2c44', border:'1px solid #aa2c44', borderRadius:'2px'}} className='joinbutton'><a style={{color:'white', textDecoration:'none'}} href='tel:7397556722'>Enroll Now</a></Button>
+                <Button style={{background:'#aa2c44', border:'1px solid #aa2c44', borderRadius:'2px'}} className='joinbutton'><a style={{color:'white', textDecoration:'none'}} href='tel:9003557734'>Enroll Now</a></Button>
             </section>
             <Footer/>
         </section>

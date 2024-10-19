@@ -18,7 +18,7 @@ import {FiPhoneCall} from 'react-icons/fi';
 
 const pages = ['Home', 'Explore Course', 'Testseries'];
 const settings = ['Tnpsc', 'Upsc', 'Ssc and banking', 'Others'];
-const phone = ['7397556722', '9445887823', '9445887823', '7397556722'];
+const phone = ['9003557734', '9445887823', '9445887823', '9003557734'];
 const anchor = ['home', 'explorecourse', 'testseries' ];
 
 function Navigation(props) {

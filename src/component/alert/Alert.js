@@ -50,7 +50,7 @@ function Alert() {
                     {/* <a href="https://t.me/impulsebankingssc" target='_blank'><Button variant="info">
                         SSC And BANKING
                     </Button></a> */}
-                    <a href="tel:7397556722" target='_blank'><Button variant="danger">
+                    <a href="tel:9003557734" target='_blank'><Button variant="danger">
                     <FiPhoneCall/> Call
                     </Button></a>
                     <Button variant="secondary" onClick={handleClose}>
