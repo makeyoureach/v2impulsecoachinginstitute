@@ -16,10 +16,10 @@ import { Bounce } from 'react-awesome-reveal';
 import { NavLink } from 'react-router-dom';
 import {FiPhoneCall} from 'react-icons/fi';
 
-const pages = ['Home', 'Explore Course', 'Testseries'];
+const pages = ['Home', 'Explore Course', 'Testseries', 'Learn'];
 const settings = ['Tnpsc', 'Upsc', 'Ssc and banking', 'Others'];
 const phone = ['9003557734', '9445887823', '9445887823', '9003557734'];
-const anchor = ['home', 'explorecourse', 'testseries' ];
+const anchor = ['home', 'explorecourse', 'testseries', 'user' ];
 
 function Navigation(props) {
 

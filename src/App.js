@@ -5,6 +5,7 @@ import {
   RouterProvider
 } from "react-router-dom";
 import Layout from './component/layout/Layout';
+import AppRouter from './Router';
 
 function App() {
   const pathname =window.location.pathname;
@@ -18,7 +19,7 @@ function App() {
   
     <div>
       <Layout usenav = {navvisible}>
-        <RouterProvider router={router} />
+        <AppRouter />
       </Layout>
     </div>
   );

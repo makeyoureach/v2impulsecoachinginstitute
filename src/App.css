@@ -404,7 +404,9 @@
   padding: 5vh 3vh;
 
 }
-
+.loginviewpage{
+  height: 1000px;
+}
 .gallery2container{
   display: flex;
   flex-direction: column-reverse;
