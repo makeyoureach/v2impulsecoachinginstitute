@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const apiUrl = 'http://localhost:3002/api';
+const apiUrl = 'https://impulsesvc.netlify.app/.netlify/functions/api';
 
 export const loginUser = async (username, password) => {
   return axios.post(`${apiUrl}/user/login`, { username, password });
