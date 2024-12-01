@@ -9,6 +9,8 @@ import TestSeriesPage from './component/TestSeriesPage';
 import LoginPage from './component/login/LoginPage';
 import UserPage from './component/user/UserPage';
 import VideoPage from './component/video/VideoPage';
+import VideoManager from './component/video/VideoManager';
+
 
 const AppRouter = () => {
   const [user, setUser] = useState(null);
@@ -58,6 +60,10 @@ const AppRouter = () => {
       path: '/user/video',
       element: <VideoPage/>,
     },
+    {
+      path: '/user/video/manage',
+      element: <VideoManager/>,
+    }
   ]);
 
   return <RouterProvider router={routes} />;
