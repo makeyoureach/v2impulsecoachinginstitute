@@ -20,20 +20,20 @@ function Home() {
 
   return (
     <div className='homecontainer'>
-    {/* <Alert/> */}
-    <Navigation scroll={true}/>
-    <DarkCarousel />
-    <Aboutus/>
-    <ExploreCourse/>
-    <Parallaxcard/>
-    <Trustcard/>
-    <Whyimpulse/>
-    <Reviewcard/>
-    <Gallery2/>
-    {/* <Founder/> */}
-    <FounderCarousel/>
-    <GoogleMap/>
-    <Footer/>
+      <Alert />
+      <Navigation scroll={true} />
+      <DarkCarousel />
+      <Aboutus />
+      <ExploreCourse />
+      <Parallaxcard />
+      <Trustcard />
+      <Whyimpulse />
+      <Reviewcard />
+      <Gallery2 />
+      {/* <Founder/> */}
+      <FounderCarousel />
+      <GoogleMap />
+      <Footer />
     </div>
   )
 }
